@@ -25,14 +25,8 @@ class LoginViewController: UIViewController {
             login(emailTextField.text!, password: passwordTextfield.text!)
             
         } else {
-            
             createUser(emailTextField.text!, password: passwordTextfield.text!)
-        
         }
-        
-        // If success go to MainScreenViewController
-        
-        
     }
     
     @IBAction func registerTappedButton(sender: UIButton) {
@@ -55,6 +49,7 @@ class LoginViewController: UIViewController {
                 print("incorrect")
             } else {
                 print("Success \(user?.uid)")
+//                NSUserDefaults.standardUserDefaults().setObject(user!.uid, forKey: "CurrentUser")
                 self.dismissViewControllerAnimated(true, completion: nil)
             }
         })

@@ -21,7 +21,15 @@ class ProfileViewController: UIViewController {
 	@IBOutlet weak var nicknameTextField: UITextField!
 	@IBOutlet weak var emailIDTextField: UITextField!
 	
-	
+    @IBAction func logOutTapped(sender: AnyObject) {
+        
+        do {
+            try FIRAuth.auth()?.signOut()
+        } catch let logOutErro {
+            print(logOutErro)
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 		
@@ -90,7 +98,7 @@ class ProfileViewController: UIViewController {
 	}
 	
 	
-	@IBOutlet weak var logOutButtonPressed: UIButton!
+
 	
 	
     /*

@@ -33,6 +33,10 @@ class MainViewController: UIViewController {
             performSegueWithIdentifier("presentLoginViewController", sender: nil)
         }
         
+//        if NSUserDefaults.standardUserDefaults().objectForKey("CurrentUser") != nil {
+//            performSegueWithIdentifier("presentLoginViewController", sender: nil)
+//        }
+        
         tableView.dataSource = dataSource
         tableView.delegate = self
         dataSource.delegate = self
