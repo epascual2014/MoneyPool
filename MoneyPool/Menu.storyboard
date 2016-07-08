@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueQ-IZ-4d8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3587" y="-1150"/>
+            <point key="canvasLocation" x="3611" y="-1192"/>
         </scene>
         <!--Payment-->
         <scene sceneID="c4p-jl-PvC">
@@ -244,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xop-8e-mfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3587" y="-497"/>
+            <point key="canvasLocation" x="3629" y="-497"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="y04-QI-ugD">
@@ -301,7 +301,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gBR-jk-pkA" id="zra-xY-c5g">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxl-1r-SNN">
@@ -390,7 +390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMV-tD-ziQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3587" y="284"/>
+            <point key="canvasLocation" x="3629" y="276"/>
         </scene>
     </scenes>
     <resources>

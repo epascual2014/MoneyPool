@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		040490681D2DB123005F654E /* PoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040490671D2DB123005F654E /* PoolTableViewCell.swift */; };
 		0404906A1D2DB13C005F654E /* InvitaionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040490691D2DB13C005F654E /* InvitaionTableViewCell.swift */; };
+		041D165D1D30686600D8BC63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041D165C1D30686600D8BC63 /* GoogleService-Info.plist */; };
 		04257CA91D2C698B00F34956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04257CA81D2C698B00F34956 /* AppDelegate.swift */; };
 		04257CAB1D2C698B00F34956 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04257CAA1D2C698B00F34956 /* MainViewController.swift */; };
 		04257CAE1D2C698B00F34956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04257CAC1D2C698B00F34956 /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		04257CBE1D2C698B00F34956 /* MoneyPoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04257CBD1D2C698B00F34956 /* MoneyPoolTests.swift */; };
 		04257CC91D2C698B00F34956 /* MoneyPoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04257CC81D2C698B00F34956 /* MoneyPoolUITests.swift */; };
 		0447F13E1D2F132F0017E395 /* PaymentPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F13D1D2F132F0017E395 /* PaymentPlan.swift */; };
-		044B39281D2C8B400058E3EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044B39271D2C8B400058E3EB /* GoogleService-Info.plist */; };
 		044B392C1D2C8CD20058E3EB /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B392B1D2C8CD20058E3EB /* FirebaseHelper.swift */; };
 		044B392F1D2C903B0058E3EB /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B392E1D2C903B0058E3EB /* Pool.swift */; };
 		044B39331D2CAE770058E3EB /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B39321D2CAE770058E3EB /* Invitation.swift */; };
@@ -66,6 +66,7 @@
 		00D79C75AB9FDCC712AB4E34 /* Pods_MoneyPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040490671D2DB123005F654E /* PoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolTableViewCell.swift; sourceTree = "<group>"; };
 		040490691D2DB13C005F654E /* InvitaionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitaionTableViewCell.swift; sourceTree = "<group>"; };
+		041D165C1D30686600D8BC63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04257CA51D2C698B00F34956 /* MoneyPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04257CA81D2C698B00F34956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04257CAA1D2C698B00F34956 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		04257CC81D2C698B00F34956 /* MoneyPoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyPoolUITests.swift; sourceTree = "<group>"; };
 		04257CCA1D2C698B00F34956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0447F13D1D2F132F0017E395 /* PaymentPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentPlan.swift; path = Model/PaymentPlan.swift; sourceTree = "<group>"; };
-		044B39271D2C8B400058E3EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		044B392B1D2C8CD20058E3EB /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseHelper.swift; path = Helpers/FirebaseHelper.swift; sourceTree = "<group>"; };
 		044B392E1D2C903B0058E3EB /* Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pool.swift; path = Model/Pool.swift; sourceTree = "<group>"; };
 		044B39321D2CAE770058E3EB /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Invitation.swift; path = Model/Invitation.swift; sourceTree = "<group>"; };
@@ -184,8 +184,8 @@
 				04257CD61D2C77DA00F34956 /* Views */,
 				044B392A1D2C8CA10058E3EB /* Helpers */,
 				04257CAF1D2C698B00F34956 /* Assets.xcassets */,
+				041D165C1D30686600D8BC63 /* GoogleService-Info.plist */,
 				04257CB41D2C698B00F34956 /* Info.plist */,
-				044B39271D2C8B400058E3EB /* GoogleService-Info.plist */,
 			);
 			path = MoneyPool;
 			sourceTree = "<group>";
@@ -398,11 +398,11 @@
 			files = (
 				04C9ACB91D2E1DDE006B5383 /* Menu.storyboard in Resources */,
 				04257CB31D2C698B00F34956 /* LaunchScreen.storyboard in Resources */,
-				044B39281D2C8B400058E3EB /* GoogleService-Info.plist in Resources */,
 				04E182641D2DA4BC00FF8D7B /* Pool.storyboard in Resources */,
 				04E182621D2DA48D00FF8D7B /* Invitation.storyboard in Resources */,
 				04257CB01D2C698B00F34956 /* Assets.xcassets in Resources */,
 				04257CAE1D2C698B00F34956 /* Main.storyboard in Resources */,
+				041D165D1D30686600D8BC63 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

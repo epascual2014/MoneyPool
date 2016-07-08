@@ -29,7 +29,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let currentUser = FIRAuth.auth()?.currentUser {
+        if FIRAuth.auth()?.currentUser == nil {
             performSegueWithIdentifier("presentLoginViewController", sender: nil)
         }
         
@@ -40,14 +40,11 @@ class MainViewController: UIViewController {
         tableView.dataSource = dataSource
         tableView.delegate = self
         dataSource.delegate = self
-        
-        firebaseHelper.loginWithEmail("test5@hello.com", andPassword: "123456")
-//        firebaseHelper.createUserWithEmail("test5@hello.com", andPassword: "123456")
 
     }
 
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(true)
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
         
         dataSource.addOFirebaseObserverForRefPoint(RefPoint.Pools)
     }

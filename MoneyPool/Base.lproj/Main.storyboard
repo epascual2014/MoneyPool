@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="96"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pB0-Zx-Ia1" id="p1J-13-bk2">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="95.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring Break Trip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQk-DR-QNz">
@@ -114,7 +114,7 @@
                                         <rect key="frame" x="0.0" y="124" width="600" height="96"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cjh-f8-jLO" id="dz1-61-90v">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="95.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone birthday gift invite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dn-Sj-XCM">
@@ -272,7 +272,7 @@
                 <viewControllerPlaceholder storyboardName="Invitation" id="WWa-fW-tQc" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tsW-za-QEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4457" y="402"/>
+            <point key="canvasLocation" x="3788.5" y="174"/>
         </scene>
         <!--Pool-->
         <scene sceneID="gTe-GT-XbT">
@@ -288,7 +288,7 @@
                 <viewControllerPlaceholder storyboardName="Menu" id="wFS-61-EH8" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bmi-q5-ELS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2894" y="-497"/>
+            <point key="canvasLocation" x="3788" y="-21"/>
         </scene>
         <!--Active Pool View Controller-->
         <scene sceneID="ZHA-Nk-Itr">
@@ -420,7 +420,7 @@
                                         <rect key="frame" x="0.0" y="28" width="560" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EQ5-W1-kzq" id="nkX-Wb-RFr">
-                                            <rect key="frame" x="0.0" y="0.0" width="560" height="69.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kCh-ed-YSv">
@@ -536,7 +536,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nla-QC-PzG" id="kwS-PC-XVP">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KBC-Ns-SSy">
@@ -734,12 +734,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bU1-6Z-jLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3120" y="1118"/>
+            <point key="canvasLocation" x="3140" y="1188"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="xrg-eW-Rll">
             <objects>
-                <viewController id="yzA-rN-AHO" customClass="LoginViewController" customModule="MoneyPool" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="yzA-rN-AHO" customClass="LoginViewController" customModule="MoneyPool" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gih-A6-URc"/>
                         <viewControllerLayoutGuide type="bottom" id="BOn-Iq-bfb"/>
@@ -853,7 +853,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4pF-4e-peq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2432" y="1098"/>
+            <point key="canvasLocation" x="2444" y="1188"/>
         </scene>
     </scenes>
 </document>

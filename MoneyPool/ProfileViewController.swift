@@ -25,8 +25,13 @@ class ProfileViewController: UIViewController {
         
         do {
             try FIRAuth.auth()?.signOut()
+            
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let logingVC = storyBoard.instantiateViewControllerWithIdentifier("LoginViewController")
+            self.presentViewController(logingVC, animated: true, completion: nil)
+            
         } catch let logOutErro {
-            print(logOutErro)
+            print(#function, logOutErro)
         }
         
     }
